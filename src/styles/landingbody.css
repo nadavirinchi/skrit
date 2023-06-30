@@ -1,0 +1,49 @@
+@font-face {
+    font-family: NunitoMeduim;
+    src: url('/public/fonts/NunitoMedium.ttf');
+}
+
+.landing_body{
+    width: 100%;
+    display: flex;
+    background: #04050A;
+    height: 90%;
+}
+
+.landing_texts{
+    width: 50%;
+}
+
+.landing_texts p{
+    color: white;
+    font-family: NunitoMeduim;
+    margin-left: 3rem;
+    margin-top: 5rem;
+    cursor: none;
+}
+
+.text_1{
+    font-size: 2.5rem;
+}
+
+.text_2{
+    font-size: 1.75rem;
+}
+
+.text_3{
+    font-size: 1rem;
+}
+
+.landing_img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.landing_img img{
+    width: 40rem;
+    height: 40rem;
+}
+
+

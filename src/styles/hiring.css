@@ -1,0 +1,64 @@
+@font-face {
+    font-family: WorkSans;
+    src: url('/public/fonts/WorkSansMedium.ttf');
+}
+
+.hiring{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5rem;
+    align-items: center;
+}
+
+.we_are{
+    width: 80%;
+    height: 160px;
+    margin-bottom: 2rem;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+}
+
+.we_are img{
+    height: 160px;
+    width: 190px;
+}
+
+.we{
+    font-family: WorkSans;
+    color: #84A7A1;
+    margin-right: 14rem;
+    font-size: 2rem;
+}
+
+.hir{
+    font-family: WorkSans;
+    font-size: 4rem;
+    color: #46458C;
+}
+
+.lets{
+    font-family: WorkSans;
+    font-size: 1.25rem;
+    color: #84A7A1;
+}
+
+.tog{
+    font-family: WorkSans;
+    font-size: 1.25rem;
+    margin-left: 0.5rem;
+}
+
+.exp{
+    font-family: WorkSans;
+    font-size: 1.25rem;
+}
+
+.opp{
+    font-family: WOrkSans;
+    font-size: 1.25rem;
+    margin-left: 0.5rem;
+    color: #84A7A1;
+}

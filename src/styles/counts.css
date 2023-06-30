@@ -1,0 +1,45 @@
+@font-face {
+    font-family: WorkSans;
+    src: url('/public/fonts/WorkSansMedium.ttf');
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url('/public/fonts/NunitoMedium.ttf');
+}
+
+.counts{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 8rem;
+}
+
+.description{
+    font-family: Nunito;
+    text-align: center;
+    font-size: 0.8rem;
+    width: 60%;
+    margin-left: 4rem;
+    margin-top: 0.5rem;
+}
+
+.title{
+    text-align: center;
+    font-family: WorkSans;
+
+}
+
+.counthou{
+    display: flex;
+    margin: 1rem;
+    justify-content: center;
+}
+
+.counthou p{
+    text-align: center;
+    font-size: 4rem;
+    font-family: WorkSans;
+    font-weight: 1000;
+    color: #2228BB;
+}
