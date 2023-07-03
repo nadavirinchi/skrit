@@ -1,0 +1,84 @@
+@font-face {
+    font-family: WorkSans;
+    src: url('/public/fonts/WorkSansMedium.ttf');
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url('/public/fonts/NunitoMedium.ttf');
+}
+
+.news_blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+.news_blog_title{
+    font-family: WorkSans;
+    font-size: 4rem;
+    text-align: center;
+    color: #46458C;
+}
+
+.news_blog_caption{
+    font-family: WorkSans;
+    text-align: center;
+    font-size: 1rem;
+    margin: 1rem;
+    font-weight: 100;
+}
+
+.news_blog_arrows{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-right: 10rem;
+}
+
+.news_blog_arrow{
+    border-radius: 50%;
+    padding: 5px;
+    margin: 0.5rem;
+}
+
+.news_blog_arrow:hover{
+    background: #DFF5F8;
+    cursor: pointer;
+}
+
+.blog_posts{
+    position: relative;
+    display: flex;
+    margin: 2rem;
+}
+
+.blog_posts_cover{
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    z-index: -1;
+}
+
+.blog_posts_title{
+    width: 249px;
+    height: 30px;
+    background: black;
+    opacity: 0.5;
+    position: relative;
+    margin-top: 68%;
+    margin-left: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog_posts_title p{
+    color: white;
+    z-index: 5;
+    font-family: WorkSans;
+    font-size: 0.75rem;
+}

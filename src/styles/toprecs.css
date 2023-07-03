@@ -1,0 +1,94 @@
+@font-face {
+    font-family: WorkSans;
+    src: url('/public/fonts/WorkSansMedium.ttf');
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url('/public/fonts/NunitoMedium.ttf');
+}
+
+.toprecs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+.toprecs_title{
+    font-family: WorkSans;
+    font-size: 4rem;
+    text-align: center;
+    color: #46458C;
+}
+
+.toprecs_caption{
+    font-family: WorkSans;
+    text-align: center;
+    font-size: 1rem;
+    margin: 1rem;
+    font-weight: 100;
+}
+
+.toprecs_arrow{
+    border-radius: 50%;
+    padding: 5px;
+    margin: 0.5rem;
+}
+
+.toprecs_arrow:hover{
+    background: #DFF5F8;
+    cursor: pointer;
+}
+
+.toprecs_arrows{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-right: 10rem;
+}
+
+.stars{
+    display: flex;
+    margin-left: 1.75rem;
+}
+
+.companies{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.rec_div{
+    display: flex;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.50);
+    border-radius: 10px;
+    padding: 1rem;
+    width: 18rem;
+}
+
+.rec_div img{
+    height: 5rem;
+    width: 5rem;
+}
+
+.company_deets{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.company_location{
+    font-family: Nunito;
+    margin-left: 1.75rem;
+}
+
+.company_name{
+    font-family: WorkSans;
+    margin-left: 2rem;
+}

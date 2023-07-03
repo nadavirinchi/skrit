@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import { Count } from '../models'
 import '../styles/counts.css'
 import CountUp from 'react-countup'
-import { motion, useAnimation, useInView } from 'framer-motion'
+import { useInView } from 'framer-motion'
 
 const Counts = () => {
     
@@ -34,7 +34,6 @@ const Counts = () => {
     ]
 
     const cardRef: any = useRef();
-    const controls: any = useAnimation();
     const isInView = useInView(cardRef, { once: true })
 
     const [counterOn, setCounterOn] = useState(false);
@@ -51,7 +50,7 @@ const Counts = () => {
         <div className='counts'>
             <div>
                 <div className='counthou'>
-                    <p ref={cardRef}>{counterOn && <CountUp start={0} end={counts[0].count} duration={1} delay={0.5} />}</p>
+                    <p ref={cardRef}>{counterOn && <CountUp start={0} end={counts[0].count} duration={1} delay={0.25} />}</p>
                     <p>{counts[0].thou}</p>
                     <p>+</p>
                 </div>
@@ -60,7 +59,7 @@ const Counts = () => {
             </div>
             <div>
                 <div className='counthou'>
-                    <p ref={cardRef}>{counterOn && <CountUp start={0} end={counts[1].count} duration={1} delay={0.5} />}</p>
+                    <p ref={cardRef}>{counterOn && <CountUp start={0} end={counts[1].count} duration={1} delay={0.25} />}</p>
                     <p>{counts[1].thou}</p>
                     <p>+</p>
                 </div>
@@ -69,7 +68,7 @@ const Counts = () => {
             </div>
             <div>
                 <div className='counthou'>
-                    <p ref={cardRef}>{counterOn && <CountUp start={0} end={counts[2].count} duration={1} delay={0.5} />}</p>
+                    <p ref={cardRef}>{counterOn && <CountUp start={0} end={counts[2].count} duration={1} delay={0.25} />}</p>
                     <p>{counts[2].thou}</p>
                     <p>+</p>
                 </div>
@@ -78,7 +77,7 @@ const Counts = () => {
             </div>
             <div>
                 <div className='counthou'>
-                    <p ref={cardRef}>{counterOn && <CountUp start={0} end={counts[3].count} duration={1} delay={0.5} />}</p>
+                    <p ref={cardRef}>{counterOn && <CountUp start={0} end={counts[3].count} duration={1} delay={0.25} />}</p>
                     <p>{counts[3].thou}</p>
                     <p>+</p>
                 </div>
