@@ -40,6 +40,7 @@ const ContactUs = () => {
                 <img style={{ width: '30px', height: '30px', cursor: 'pointer' }} src='/assets/fb.png' alt='fb' />
                 <img style={{ width: '30px', height: '30px', cursor: 'pointer' }} src='/assets/insta.png' alt='insta' />
                 <img style={{ width: '30px', height: '30px', cursor: 'pointer' }} src='/assets/twitter.png' alt='twitter' />
+                <img style={{ width: '30px', height: '30px', cursor: 'pointer' }} src='/assets/linkedin.png' alt='linkedin' />
             </div>
         </div>
     </div>
