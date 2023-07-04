@@ -37,9 +37,9 @@ const ContactUs = () => {
                 </div>
             </div>
             <div className='contact_us_social'>
-                <img style={{ width: '20px', height: '20px', cursor: 'pointer' }} src='/assets/fb.png' alt='fb' />
-                <img style={{ width: '20px', height: '20px', cursor: 'pointer' }} src='/assets/insta.png' alt='insta' />
-                <img style={{ width: '20px', height: '20px', cursor: 'pointer' }} src='/assets/twitter.png' alt='twitter' />
+                <img style={{ width: '30px', height: '30px', cursor: 'pointer' }} src='/assets/fb.png' alt='fb' />
+                <img style={{ width: '30px', height: '30px', cursor: 'pointer' }} src='/assets/insta.png' alt='insta' />
+                <img style={{ width: '30px', height: '30px', cursor: 'pointer' }} src='/assets/twitter.png' alt='twitter' />
             </div>
         </div>
     </div>

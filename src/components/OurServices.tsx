@@ -13,7 +13,7 @@ const OurServices = () => {
         },
         {
             src: 'assets/consulting.png',
-            service: 'Staffing',
+            service: 'Consulting',
             delay: 0.45
         },
         {
