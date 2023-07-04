@@ -12,7 +12,7 @@ const TopRecruiters = () => {
         {
             src: '/assets/ibm.png',
             name: 'IBM',
-            location: 'Hyderabad'
+            location: 'Chennai'
         },
         {
             src: '/assets/uber.png',
