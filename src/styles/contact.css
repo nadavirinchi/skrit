@@ -32,20 +32,21 @@
 .contact_us_contact{
     color: white;
     font-family: WorkSans;
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     font-weight: 1000;
 }
 
 .address{
     color: white;
     font-family: WorkSans;
-    /* font-size: 0.75rem; */
+    font-size: 0.8rem;
 }
 
 .number{
     color: white;
     font-family: WorkSans;
     margin-left: 1rem;
+    font-size: 0.75rem;
 }
 
 .footer_links{
@@ -99,15 +100,11 @@
 
 .playappstore{
     display: flex;
-    width: 160px;
+    width: 40%;
     height: 40px;
     background: #2228BB;
     border-radius: 10px;
     justify-content: space-evenly;
     align-items: center;
     cursor: pointer;
-}
-
-.playappstore p{
-    margin-left: 0.5rem;
 }
